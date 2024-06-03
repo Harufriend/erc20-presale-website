@@ -1,3 +1,3 @@
-import PresaleAbi from "./TumaPresale.json"
+import PresaleAbi from "./ImpPresale.json"
 
 export { PresaleAbi }

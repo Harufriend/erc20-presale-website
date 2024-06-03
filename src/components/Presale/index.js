@@ -8,7 +8,7 @@ const PresaleComponent = ({
   buyerAddress = "0x",
   startTimeLeft = -1,
   endTimeLeft = 0,
-  token = { name: "TUMA Pay", symbol: "TUMA", decimal: 18 },
+  token = { name: "IMP Pay", symbol: "IMP", decimal: 18 },
   tokenContract = {
     address: "0xtumacontractplaceholderfordevelopment",
   },
@@ -88,19 +88,19 @@ const PresaleComponent = ({
           </p>
           <p className="flex">
             <span>Softcap:</span>
-            <span>{makeUnified(Number(softcap))} BNB</span>
+            <span>{makeUnified(Number(softcap))} CRO</span>
           </p>
           <p className="flex">
             <span>Hardcap:</span>
-            <span>{makeUnified(Number(hardcap))} BNB</span>
+            <span>{makeUnified(Number(hardcap))} CRO</span>
           </p>
           <p className="flex">
             <span>Min Buy:</span>
-            <span>{Number(minbuy)} BNB</span>
+            <span>{Number(minbuy)} CRO</span>
           </p>
           <p className="flex">
             <span>Max Buy:</span>
-            <span>{Number(maxbuy)} BNB</span>
+            <span>{Number(maxbuy)} CRO</span>
           </p>
           <p className="flex">
             <span>Start Date:</span>
@@ -125,7 +125,7 @@ const PresaleComponent = ({
         <div className="presale-main-block flex flex-column">
           <p className="flex">
             <span>Raised:</span>
-            <span>{makeUnified(raisedamount)} BNB</span>
+            <span>{makeUnified(raisedamount)} CRO</span>
           </p>
           <p className="flex">
             <span>Sold</span>
@@ -191,7 +191,7 @@ const PresaleComponent = ({
                   <input
                     id="amount"
                     type="number"
-                    placeholder="$BNB 1"
+                    placeholder="$CRO 1"
                     onChange={(e) => onBaseChangeHandler(e)}
                   />
                 </div>
@@ -211,7 +211,7 @@ const PresaleComponent = ({
               <div className="presale-main-block flex flex-column">
                 <p className="flex">
                   <span>Sent:</span>
-                  <span>{makeUnified(buyerBase)} BNB</span>
+                  <span>{makeUnified(buyerBase)} CRO</span>
                 </p>
                 <p className="flex">
                   <span>Bought:</span>

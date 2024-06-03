@@ -39,8 +39,8 @@ const DashboardComponent = ({
         <div className="dashboard-ico-status flex">
           <div className="dashboard-ico-status-wrapper grid">
             <div className="dashboard-ico-status-item">
-              <span>BNB Raised</span>
-              <h3>{Number(bnbRaised).toFixed(3)} BNB</h3>
+              <span>CRO Raised</span>
+              <h3>{Number(bnbRaised).toFixed(3)} CRO</h3>
             </div>
             <div className="dashboard-ico-status-item">
               <span>Funds raised</span>
@@ -48,7 +48,7 @@ const DashboardComponent = ({
             </div>
             <div className="dashboard-ico-status-item">
               <span>ICO Token Supply</span>
-              <h3>{icoTokenSupply} TUMA</h3>
+              <h3>{icoTokenSupply} IMP</h3>
             </div>
             <div className="dashboard-ico-status-item">
               <span>Tokens distributed</span>
@@ -56,7 +56,7 @@ const DashboardComponent = ({
             </div>
           </div>
           <NavLink className="rounded shadowed" to={AppRoutes.PRESALE}>
-            buy tokens
+            Buy tokens
           </NavLink>
         </div>
         <div className="dashboard-ico-progress">
@@ -80,9 +80,9 @@ const DashboardComponent = ({
             <img src={IntroduceVideo} alt="introduce video" loading="lazy" />
           </div>
           <div className="dashboard-presentation-introduce-detail">
-            <h3>#Blockchain technology for Africa</h3>
+            <h3>#Blockchain technology for Gothic</h3>
             <p>
-              The blockchain is a solution for the financial sector in Africa,
+              The blockchain is a solution for the financial sector in Gothic,
               more precisely in money transfers. Especially with its system of
               lower costs, its speed of sending.
             </p>
@@ -206,9 +206,9 @@ const DashboardComponent = ({
       <div className="dashboard-nfts flex">
         <div className="dashboard-nfts-wrapper container flex">
           <div className="dashboard-nfts-contents">
-            <h2 className="flex">Buy NFTs that Changes Lives</h2>
+            <h2 className="flex">Buy IMP that Changes Lives</h2>
             <h3>Get privileges to support our cause.</h3>
-            <h3>Sales will be limited NFT purely African</h3>
+            <h3>Sales will be limited purely Gothic community</h3>
           </div>
           <NavLink className="rounded shadowed" to={AppRoutes.COMING_SOON}>
             Coming Soon

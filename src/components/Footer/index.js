@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="footer-wrapper container flex-column">
       <div className="footer-community flex rounded shadowed">
         <div className="flex-column">
-          <span>Join TUMA Community</span>
+          <span>Join IMP Community</span>
           <p>Follow us in all major social networks around the world</p>
         </div>
         <button className="rounded shadowed">create account</button>
@@ -15,14 +15,14 @@ const Footer = () => (
 
       <div className="footer-main grid">
         <div className="footer-main-about">
-          <span>About TUMA</span>
+          <span>About IMP</span>
           <p></p>
         </div>
 
         <div className="footer-main-links">
           <span>Useful Links</span>
           <div className="flex-column">
-            <a href="">Why a TUMA ICO?</a>
+            <a href="">Why a IMP ICO?</a>
             <a href="">Whitepaper</a>
             <a href="">Roadmap</a>
             <a href="">Architecture</a>
@@ -43,7 +43,7 @@ const Footer = () => (
         </div>
       </div>
 
-      <span>© 2022 TUMA Inc - All rights reserved.</span>
+      <span>© 2022 IMP Inc - All rights reserved.</span>
     </div>
   </div>
 )

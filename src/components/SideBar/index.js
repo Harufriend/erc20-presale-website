@@ -13,7 +13,7 @@ const SideBar = ({ pathname, show, onClickSideBar }) => (
     onClick={onClickSideBar}
   >
     <img src={Logo} alt="logo" loading="lazy" />
-    <h3>TUMA Inc</h3>
+    <h3>IMP Inc</h3>
     <div className="sidebar-anchors flex-column">
       {keysIn(AppRoutes).map((data, index) => {
         if (data !== "NOT_FOUND" && data !== "COMING_SOON") {

@@ -11,7 +11,7 @@ const Hero = () => (
     </div>
     <div className="hero-main container flex-column">
       <p className="container">
-        Until the completion of largest ICO in the history of Africa left:
+        Until the completion of largest ICO in the history of Gothic left:
       </p>
       <div className="hero-main-counter container flex">
         <div className="hero-main-counter-item rounded flex">00</div>

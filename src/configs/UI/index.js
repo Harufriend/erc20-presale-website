@@ -19,15 +19,15 @@ export const AppRoutes = {
 
 export const SocialItemContents = [
   {
-    link: "https://www.facebook.com/TumaToken",
+    link: "https://www.facebook.com/ImpToken",
     icon: <SiFacebook />,
   },
   {
-    link: "https://twitter.com/TokenTuma",
+    link: "https://twitter.com/impmeme",
     icon: <SiTwitter />,
   },
   {
-    link: "https://t.me/tumatoken_official",
+    link: "https://t.me/impmeme",
     icon: <SiTelegram />,
   },
 ]
@@ -37,19 +37,19 @@ export const RoadmapItemContents = {
     [
       {
         achieved: true,
-        content: "Development of Tuma Concept and Validation",
+        content: "Development of Imp Concept and Validation",
       },
-      { achieved: true, content: "Tuma Whitepaper" },
+      { achieved: true, content: "Imp Whitepaper" },
       {
         content: "Development of the team & Partners",
       },
     ],
     [
       {
-        content: "Creation of Tuma Token",
+        content: "Creation of Imp Token",
       },
       {
-        content: "Pre-sale of Tuma Token",
+        content: "Pre-sale of Imp Token",
       },
       {
         content: "DEX Listing",
@@ -57,10 +57,10 @@ export const RoadmapItemContents = {
     ],
     [
       {
-        content: "Design of the Tuma platform",
+        content: "Design of the Imp platform",
       },
       {
-        content: "Creation of Tuma Wallet",
+        content: "Creation of Imp Wallet",
       },
     ],
     [
@@ -110,14 +110,14 @@ export const RoadmapItemContents = {
 
 export const AboutItemContents = [
   {
-    title: "What is TUMA",
+    title: "What is Imp",
     content:
-      "Tuma Inc is a company, a digital token, and wallet designed for payments. An asset based on Blockchain Technology of Binance Smart Chain, without permission, semi-decentralized that can adjust transactions in 2 to 10 minutes.",
+      "Imp Inc is a company, a digital token, and wallet designed for payments. An asset based on Blockchain Technology of Binance Smart Chain, without permission, semi-decentralized that can adjust transactions in 2 to 10 minutes.",
   },
   {
     title: "How it works",
     content:
-      "Send cash to Francophone Africa directly at home without moving and at the low cost of 1.5%, thanks to our Wallet Tuma do not stress you to send money to your children abroad with his franc CFA electronics. You could link your Money service to the platform and transfer your CFA franc into the wallet and transfer it to your loved ones at a fee of 1.5%. Access the world of currency crypto for the first time directly with the Fiat XOF with a CFA / TMA, TMA / BNB pair at extremely low expense. For the first time in French-speaking Africa.",
+      "Send cash to Francophone Africa directly at home without moving and at the low cost of 1.5%, thanks to our Wallet Imp do not stress you to send money to your children abroad with his franc CFA electronics. You could link your Money service to the platform and transfer your CFA franc into the wallet and transfer it to your loved ones at a fee of 1.5%. Access the world of currency crypto for the first time directly with the Fiat XOF with a CFA / TMA, TMA / BNB pair at extremely low expense. For the first time in French-speaking Africa.",
   },
   {
     title: "Our Mission",
@@ -153,7 +153,7 @@ export const TeamItemContents = [
   {
     image: RocilFortune,
     name: "Rocil Fortuné A MALANDA",
-    role: "Founder, TUMA Inc.",
+    role: "Founder, Imp Inc.",
     social: {
       link: "",
       icon: <SiGithub />,
@@ -232,14 +232,14 @@ export const PartnerItemContents = [
 
 export const FAQItemContents = [
   {
-    question: "What is Tuma Inc?",
+    question: "What is Imp Inc?",
     answer:
-      "Tuma Inc is a new finance company that aims to democratize finance making it accessible to everyone.",
+      "Imp Inc is a new finance company that aims to democratize finance making it accessible to everyone.",
   },
   {
-    question: "Why the Tuma token?",
+    question: "Why the Imp token?",
     answer:
-      "The Tuma token will facilitate transactions at the cryptocurrency level at low fees given the context of rising costs in Africa at the level of this market.",
+      "The Imp token will facilitate transactions at the cryptocurrency level at low fees given the context of rising costs in Africa at the level of this market.",
   },
   {
     question: "Who is the founder?",
@@ -251,8 +251,8 @@ export const FAQItemContents = [
     answer: "Contact Rocil on Rocilf@yahoo.com.",
   },
   {
-    question: "Is Tuma a SCAM?",
+    question: "Is Imp a SCAM?",
     answer:
-      "Tuma Inc is a company with a big plan and very serious goals for the African continent. Our team will always be at your disposal for any questions and will communicate on the financial statements and updates concerning the project.",
+      "Imp Inc is a company with a big plan and very serious goals for the African continent. Our team will always be at your disposal for any questions and will communicate on the financial statements and updates concerning the project.",
   },
 ]
