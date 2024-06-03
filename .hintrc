@@ -1,0 +1,9 @@
+{
+  "extends": ["development"],
+  "rules": {
+    "my-custom-rule": "error"
+  },
+  "globals": {
+    "myGlobalVariable": "readonly"
+  }
+}
